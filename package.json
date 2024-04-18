@@ -1,0 +1,16 @@
+{
+  "name": "video_app_backend",
+  "version": "1.0.0",
+  "description": "creating backend for app like youtube.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "javascript",
+    "nodejs",
+    "backend"
+  ],
+  "author": "parth kakadiya",
+  "license": "ISC"
+}
