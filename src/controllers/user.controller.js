@@ -178,7 +178,7 @@ const logoutUser = asyncHandler(async (req, res) => {
     .json(new ApiResponse(200, {}, "User Logged Out"));
 });
 
-const refreshAccesstoken = asyncHandler(async (req, res) => {
+const refreshAccessToken = asyncHandler(async (req, res) => {
   try {
     const incomingRefreshToken =
       req.cookies.refreshToken || req.body.refreshToken;
@@ -226,4 +226,4 @@ const refreshAccesstoken = asyncHandler(async (req, res) => {
   }
 });
 
-export { registerUser, loginUser, logoutUser, refreshAccesstoken };
+export { registerUser, loginUser, logoutUser, refreshAccessToken };
