@@ -83,6 +83,21 @@ npm install
 
 2. Set up environment variables by creating a `.env` file with the provided configurations.
 
+3. Set up environment variables by creating a `.env` file with the following configurations:
+
+```plaintext
+PORT=               // Port number for running the server
+MONGODB_URI=        // MongoDB connection URI
+CORS_ORIGIN=        // CORS origin for handling cross-origin requests
+ACCESS_TOKEN_SECRET=        // Secret key for JWT access tokens
+ACCESS_TOKEN_EXPIRY=1d      // Expiry time for access tokens
+REFRESH_TOKEN_SECRET=       // Secret key for JWT refresh tokens
+REFRESH_TOKEN_EXPIRY=10d    // Expiry time for refresh tokens
+CLOUDINARY_CLOUD_NAME=      // Cloudinary cloud name for image and video storage
+CLOUDINARY_API_KEY=         // Cloudinary API key
+CLOUDINARY_API_SECRET=      // Cloudinary API secret
+
+
 3. Start the development server:
 
 npm run dev
@@ -103,3 +118,4 @@ Here is a list of npm libraries used in this project:
 - **multer**: ^1.4.5-lts.1
 
 Make sure to check the `package.json` file for detailed library versions.
+```
